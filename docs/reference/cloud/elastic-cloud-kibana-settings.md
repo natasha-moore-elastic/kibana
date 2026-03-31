@@ -90,6 +90,14 @@ stack: ga 9.4+
 
 You can configure the following X-Pack settings from the Kibana **User Settings** editor.
 
+### Version 9.4+ [ec_version_9_4]
+```{applies_to}
+stack: ga 9.4
+```
+
+`xpack.securitySolution.maxEndpointScriptFileSize` {applies_to}`stack: ga 9.4+`
+:    The maximum file size in bytes allowed for Security Solution Endpoint scripts. Default is `26214400` (25MB).
+
 ### Version 9.3+ [ec_version_9_3]
 ```{applies_to}
 stack: ga 9.3
